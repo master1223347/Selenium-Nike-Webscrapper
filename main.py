@@ -50,6 +50,6 @@ driver.quit()
 
 # Save to CSV
 df = pd.DataFrame({"Product Name": models, "Product Price": prices})
-df.to_csv("nike_us_shoes.csv", encoding="utf-8", index=False)
+df.to_csv("shoes.csv", encoding="utf-8", index=False)
 
-print("Scraping complete Data saved to nike_us_shoes.csv.")
+print("Scraping complete Data saved to shoes.csv.")
